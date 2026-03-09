@@ -1,0 +1,20 @@
+package com.example;
+
+public class Activity1 {
+
+    public static void main(String[] args) {
+
+        // Create Car object
+        Car myCar = new Car();
+
+        // Assign values
+        myCar.color = "Black";
+        myCar.transmission = "Manual";
+        myCar.make = 2014;
+
+        // Call methods
+        myCar.displayCharacteristics();
+        myCar.accelerate();
+        myCar.brake();
+    }
+} 
